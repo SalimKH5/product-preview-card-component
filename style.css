@@ -111,8 +111,26 @@
     padding:5px 0;
     border-radius: 5px;
     border: none;
-    background:   hsl(158, 36%, 37%);
+    background:  hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.product-details .product-detail-content button p{
+    color:#fff;
+    font-size: 15px;
+    font-weight: bold
+
+}
+
+button img{
+    width: 10px;
+    height: 10px;
+}
+
+
+.product-detail-content button:hover{
+    background: hsl(157, 46%, 20%);
 }
 
 @media screen and (max-width:580px) {
@@ -193,5 +211,10 @@
     .product-content .product-details{
         padding-bottom: 50px;
     }
-    
+    .product-detail-content .price-container h1{
+        font-size: 20px;
+    }   
+    .product-detail-content .price-container span{
+        font-size: 14px;
+    }   
 }
